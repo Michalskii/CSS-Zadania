@@ -1,0 +1,135 @@
+.links {
+  color: #e4acb5;
+  opacity: 0.75;
+}
+
+a {
+  display: inline-block;
+}
+
+a:hover {
+  font-weight: 900;
+  -webkit-transform: translate(4px);
+          transform: translate(4px);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn_disabled {
+  cursor: not-allowed;
+}
+
+ol ul {
+  font-size: 18px;
+}
+
+ul p {
+  color: blue;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+ul > ul {
+  list-style: none;
+}
+
+li:nth-child(2) {
+  font-size: 18px;
+  position: absolute;
+  text-align: right;
+  top: 10px;
+  right: 10px;
+  list-style-type: none;
+  border: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.second_li {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.third_li {
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+
+.fourth_li {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+ol li {
+  border: solid red 1px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.amet {
+  border: none;
+}
+
+.burger {
+  width: 30px;
+  height: 30px;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+}
+
+.burger_bar {
+  height: 2px;
+  border: 1px solid black;
+  width: 52px;
+  display: block;
+  /* position: absolute; */
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  background: black;
+}
+
+.burger_bar:nth-child(1) {
+  margin: 3px;
+}
+
+.burger_bar:nth-child(2) {
+  margin: 3px;
+}
+
+.burger_bar:nth-child(3) {
+  margin: 3px;
+}
+
+.burger:hover .burger_bar:nth-child(1) {
+  -webkit-transform: translateY(7px) rotate(45deg);
+          transform: translateY(7px) rotate(45deg);
+}
+
+.burger:hover .burger_bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger:hover .burger_bar:nth-child(3) {
+  -webkit-transform: translateY(-7px) rotate(-45deg);
+          transform: translateY(-7px) rotate(-45deg);
+}
+/*# sourceMappingURL=styles.css.map */

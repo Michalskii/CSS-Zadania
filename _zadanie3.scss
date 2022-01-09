@@ -1,0 +1,8 @@
+a {
+  display: inline-block;
+  &:hover {
+    font-weight: 900;
+    transform: translate(4px);
+    transition: 0.4s;
+  }
+}

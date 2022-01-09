@@ -1,0 +1,44 @@
+li:nth-child(2) {
+  font-size: 18px;
+  position: absolute;
+  text-align: right;
+  top: 10px;
+  right: 10px;
+  list-style-type: none;
+  border: none;
+}
+
+// #pclass {
+//   position: absolute;
+//   top: 10px;
+//   right: 20px;
+// }
+
+// #listed_item {
+//   position: absolute;
+//   top: 30px;
+//   right: 20px;
+// }
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+// .first_li {
+//   transform: translateY(500px);
+// }
+
+.second_li {
+  transform: translateY(10px);
+}
+
+.third_li {
+  transform: translateY(20px);
+}
+
+.fourth_li {
+  transform: translateY(30px);
+}
